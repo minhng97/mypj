@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+  <meta name="viewport" content="width=device-width">
+<body>
+  <div class="chatplace" id="background">
+
+    <h1 id="h1color">SIMPLE CHAT BOX</h1>
+    <button id="changestyle" onclick="changestyle()">Style</button>
+ 
+    <div id="notloggedin" class="notloggedin" style="display:block">
+      <input type="text" id="user" name="fname" value="username" required></input>
+      <input id="enter" type="submit" value="Login" onclick="notloggedin()"></input>
+      <br/> <input type="checkbox" id="myCheck" style="hidden" onmouseover="mouseover()" onclick="mouseout()" checked>
+      <div id='warn' style='visibility:hidden' focusin="mouseover()">Tick to accept our <a href="#">aggreements</a></div>
+    </div>
+
+    <div id="loggedin" class="loggedin" style="display:none">
+      <input type="text" id="textin" onfocus="this.value=''" value="hello">  </input>
+
+      <div class="chatbutton"> <button id="submit" onclick="username();myFunction();">Submit</button>
+        <button id="logout" onclick="logout()">Logout</button>
+
+      </div>
+      <br/>
+      <div id="msghere" class="myMsg">
+        
+      </div>
+    </div>
+
+</body>
+
+</html>
