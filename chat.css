@@ -1,0 +1,62 @@
+.chatplace {
+  width:360px;min-width:360px; padding: 45px; margin: auto;background-color:#A5E7BC;border-color:white;position: relative;}
+   .chatplace input[type="text"]{
+     padding: 4px;  margin: 8px;font-color:black;
+  box-sizing: border-box;  border: none; background-color: #E5FFD7;}
+.chatplace input[type="submit"]{ 
+  background-color: #4CAF50;border: none; color: white;padding: 4px 12px;margin: 4px 2px;cursor:pointer;position:relative;right:1px;}
+.chatbutton{
+  margin:10px;display:inline-block}
+button#submit{
+  background-color: #37DA3E; border: none;color: white;padding: 4px 12px;
+text-decoration: none;margin: 4px 2px;cursor:pointer;position:relative;right:1px;top:3px;
+-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;}
+button#submit:active {
+  width: 95%;
+}
+button#logout{
+  background-color: #FC2424;
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;position:relative;right:1px;}
+button#logout:hover {
+  background-color: #FF5353;
+}
+  .notloggedin {
+    display:inline-block;padding:2px}
+  .loggedin {display:none}
+.loggedin input[type="text"]{
+  width: 200px; height:40px;background-color:#C7FAE1;border:none;resize:none}
+.loggedin #submit{
+  width: 80px;border-radius:6px;padding:6px;bottom:15x}
+.loggedin #submit:hover{
+  background-color:#4CF053;}
+.loggedin #logout{
+  float: right;
+  width: 80px;}
+  .myMsg span{
+    font-weight: bold; padding: 4px; margin: 4px; margin-top: 16px; background-image: linear-gradient(#72FFC4,#33BE83); color: white; border-width: 80px;border-bottom-left-radius:5px;border-top-right-radius:5px; max-width:80px;z-index:1;position:relative;word-wrap:break-word}
+  .myMsg li{
+    padding: 6px; margin: 4px;margin-top:-0.5px;margin-bottom:22px;  background-image: linear-gradient(#8BFFCE,#61FEBC);color: #000000;position:relative;border-bottom-left-radius:5px;border-top-right-radius:5px;word-wrap:break-word;
+clip-path:circle(50% at 0% 90%);transition: clip-path .2s ease-in-out; animation-name: example;
+  animation-duration: 3s;animation-fill-mode: forwards;}
+
+@keyframes example {
+  100%   {clip-path: circle(100%);}
+}
+ #warn {background-color:#FEFFDD; padding: 8px; margin: 2px;border-radius: 15px;max-width:220px; position: relative;}
+#msghere {
+  position: relative;
+}
+
+button#changestyle {
+  border-width:1px;border-color:#EAF3EF;background-color:#395D51;color:white;padding:5px;cursor:pointer;border-radius:10px;margin:auto;position:absolute;z-index:1;left:20px;top:20px}
+#submit {
+  position: relative; right:10px;bottom:9px}
+#logout {
+  position: relative;}
+button#logout{position:absolute;z-index:1;right:20px;top:10px}
